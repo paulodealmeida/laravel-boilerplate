@@ -1,0 +1,25 @@
+<section class="sidebar">
+    <ul class="sidebar-menu">
+        <li class="header"></li>
+        <li>
+            <a href="{{ URL::to('/') }}">
+                <span>Painel</span>
+            </a>
+        </li>
+        <li>
+            <a href="{{ URL::to('/candidates') }}">
+                <span>Candidatos</span>
+            </a>
+        </li>
+        <li>
+            <a href="{{ URL::to('/companies') }}">
+                <span>Empresas</span>
+            </a>
+        </li>
+        <li>
+            <a href="{{ URL::to('/jobs') }}">
+                <span>Vagas</span>
+            </a>
+        </li>
+    </ul>
+</section>
