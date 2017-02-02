@@ -1,35 +1,26 @@
-<!-- jQuery 2.1.4 -->
-  <script src="{{ asset('assets/plugins/jQuery/jQuery-2.1.4.min.js') }}"></script>
-  <!-- jQuery UI 1.11.4 -->
-  <script src="https://code.jquery.com/ui/1.11.4/jquery-ui.min.js"></script>
-  <!-- Resolve conflict in jQuery UI tooltip with Bootstrap tooltip -->
-  <script>
-      $.widget.bridge('uibutton', $.ui.button);
-  </script>
-  <!-- Bootstrap 3.3.5 -->
-  <script src="{{ asset('assets/bootstrap/js/bootstrap.min.js') }}"></script>
-  <!-- Morris.js charts -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/raphael/2.1.0/raphael-min.js"></script>
-  <script src="{{ asset('assets/plugins/morris/morris.min.js') }}"></script>
-  <!-- Sparkline -->
-  <script src="{{ asset('assets/plugins/sparkline/jquery.sparkline.min.js') }}"></script>
-  <!-- jvectormap -->
-  <script src="{{ asset('assets/plugins/jvectormap/jquery-jvectormap-1.2.2.min.js') }}"></script>
-  <script src="{{ asset('assets/plugins/jvectormap/jquery-jvectormap-world-mill-en.js') }}"></script>
-  <!-- jQuery Knob Chart -->
-  <script src="{{ asset('assets/plugins/knob/jquery.knob.js') }}"></script>
-  <!-- daterangepicker -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.10.2/moment.min.js"></script>
-  <script src="{{ asset('assets/plugins/daterangepicker/daterangepicker.js') }}"></script>
-  <!-- datepicker -->
-  <script src="{{ asset('assets/plugins/datepicker/bootstrap-datepicker.js') }}"></script>
-  <!-- Bootstrap WYSIHTML5 -->
-  <script src="{{ asset('assets/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.all.min.js') }}"></script>
-  <!-- Slimscroll -->
-  <script src="{{ asset('assets/plugins/slimScroll/jquery.slimscroll.min.js') }}"></script>
-  <!-- FastClick -->
-  <script src="{{ asset('assets/plugins/fastclick/fastclick.min.js') }}"></script>
-  <!-- AdminLTE App -->
-  <script src="{{ asset('assets/js/app.min.js') }}"></script>
-  
-  @yield('scripts') 
+<!-- jQuery 2.2.3 -->
+{!! Html::script('assets/plugins/jQuery/jquery-2.2.3.min.js') !!}
+<!-- jQuery UI 1.11.4 -->
+{!! Html::script('assets/plugins/jQueryUI/jquery-ui.min.js') !!}
+<!-- Resolve conflict in jQuery UI tooltip with Bootstrap tooltip -->
+<script>
+    $.widget.bridge('uibutton', $.ui.button);</script>
+<!-- Bootstrap 3.3.6 -->
+{!! Html::script('assets/bootstrap/js/bootstrap.min.js') !!}
+
+<!-- Sparkline -->
+{!! Html::script('assets/plugins/sparkline/jquery.sparkline.min.js') !!}
+
+<!-- daterangepicker -->
+{!! Html::script('assets/plugins/moment/moment.min.js') !!}
+{!! Html::script('assets/plugins/daterangepicker/daterangepicker.js') !!}
+<!-- datepicker -->
+{!! Html::script('assets/plugins/datepicker/bootstrap-datepicker.js') !!}
+<!-- Slimscroll -->
+{!! Html::script('assets/plugins/slimScroll/jquery.slimscroll.min.js') !!}
+<!-- FastClick -->
+{!! Html::script('assets/plugins/fastclick/fastclick.min.js') !!}
+<!-- AdminLTE App -->
+{!! Html::script('assets/js/app.min.js') !!}
+
+@yield('scripts') 
