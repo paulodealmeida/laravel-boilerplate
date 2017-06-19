@@ -39,23 +39,23 @@ return [
     // and store them locally
     'connections'      => [
         'production' => [
-            'host'      => 'ares.soledadetecnologia.com.br:24022',
-            'username'  => 'deploy',
-            'password'  => 'Soledade@2016',
+            'host'      => 'localhost',
+            'username'  => 'username',
+            'password'  => 'secret',
             'key'       => '',
             'keyphrase' => '',
             'agent'     => '',
             'db_role'   => true,
         ],
-	'homol' => [
-	    'host'	=> 'ares.soledadetecnologia.com.br:24222',
-	    'username'	=> 'deploy',
-	    'password'	=> 'Soledade@2016',
-	    'key'	=> '',
-	    'keyphrase' => '',
-	    'agent'	=> '',
-	    'db_role'	=> true,
-	],
+		'homol' => [
+		    'host'	=> 'localhost',
+		    'username'	=> 'username',
+		    'password'	=> 'secret',
+		    'key'	=> '',
+		    'keyphrase' => '',
+		    'agent'	=> '',
+		    'db_role'	=> true,
+		],
     ],
 
     /*

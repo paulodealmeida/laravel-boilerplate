@@ -15,6 +15,7 @@
                 </div>
 
                 <div class="box-footer">
+                    <a href="{!! url()->previous() !!}" class="btn btn-default">Voltar</a>
                     <button type="submit" class="btn btn-primary">Salvar</button>
                 </div>
                 {!! Form::close() !!}

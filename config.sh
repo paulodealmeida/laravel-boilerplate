@@ -35,15 +35,12 @@ instalar(){
                 echo "APP_URL=http://localhost" >> .env
                 echo "API_URL=localhost/api" >> .env
                 echo "" >> .env
-                echo "DB_CONNECTION=oracle" >> .env
-                echo "DB_TNS=ora-grid09.maquinadevendas.corp/bi" >> .env
-                echo "DB_HOST=" >> .env
-                echo "DB_PORT=1521" >> .env
-                echo "DB_DATABASE=bi" >> .env
-                echo "DB_USERNAME=ODS_TMP" >> .env
-                echo "DB_PASSWORD=ods_tmp23" >> .env
-                echo "DB_CHARSET=utf8" >> .env
-                echo "DB_PREFIX=" >> .env
+				echo "DB_CONNECTION=mysql" >> .env
+				echo "DB_HOST=127.0.0.1" >> .env
+				echo "DB_PORT=3306" >> .env
+				echo "DB_DATABASE=database" >> .env
+				echo "DB_USERNAME=root" >> .env
+				echo "DB_PASSWORD=" >> .env
                 echo "" >> .env
                 echo "BROADCAST_DRIVER=log" >> .env
                 echo "CACHE_DRIVER=file" >> .env

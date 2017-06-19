@@ -20,6 +20,10 @@
 {!! Html::style('assets/plugins/datepicker/datepicker3.css') !!}
 <!-- Daterange picker -->
 {!! Html::style('assets/plugins/daterangepicker/daterangepicker.css') !!}
+<!-- CodeSeven Toastr -->
+{!! Html::style('assets/plugins/toastr/build/toastr.min.css') !!}
+<!-- Sweet Alert -->
+{!! Html::style('assets/plugins/sweetalert/dist/sweetalert.css') !!}
 
 @yield('style')
 

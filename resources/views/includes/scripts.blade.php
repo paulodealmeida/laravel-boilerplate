@@ -20,6 +20,10 @@
 {!! Html::script('assets/plugins/slimScroll/jquery.slimscroll.min.js') !!}
 <!-- FastClick -->
 {!! Html::script('assets/plugins/fastclick/fastclick.min.js') !!}
+<!-- CodeSeven Toastr -->
+{!! Html::script('assets/plugins/toastr/build/toastr.min.js') !!}
+<!-- Sweet Alert -->
+{!! Html::script('assets/plugins/sweetalert/dist/sweetalert.min.js') !!}
 <!-- AdminLTE App -->
 {!! Html::script('assets/js/app.min.js') !!}
 

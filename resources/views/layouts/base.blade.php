@@ -18,7 +18,7 @@
                 @yield('content')
             </div>
             <footer class="main-footer">
-                <strong>Copyright &copy; 2014-2015 <a href="#">Soledade Tecnologia</a>.</strong> All rights reserved.
+                <strong>2017 <a href="http://soledadetecnologia.com.br/" target="_blank">Soledade Tecnologia</a></strong>
             </footer>
         </div>
     </body>
