@@ -18,7 +18,7 @@
                 @yield('content')
             </div>
             <footer class="main-footer">
-                <strong>2017 <a href="http://soledadetecnologia.com.br/" target="_blank">Soledade Tecnologia</a></strong>
+                <strong>2017 <a href="http://companyname.com.br/" target="_blank">Company Name</a></strong>
             </footer>
         </div>
     </body>
